@@ -1,0 +1,22 @@
+variable.tf
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform working directories
+.terraform/
+
+# Ignore Terraform configuration files with sensitive variables
+terraform.tfvars
+
+# Ignore any generated or temporary files
+.terraform.lock.hcl
+
+# Ignore all Terraform-related files (optional, but can be useful)
+terraform*
+
+# Ignore SSH keys (for sensitive information security)
+capstone-key1.pem
+
+
